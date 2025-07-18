@@ -9,11 +9,11 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionsDoubleClick {
 
 	public static void main(String[] args) throws InterruptedException {
-		// locate driver
+		// locates driver
 		System.setProperty("webdriver.chrome.driver", 
 				"./driver/chromedriver.exe");
 		
-		//open browser
+		//open browsers
 		WebDriver driver=new ChromeDriver();
 		
 		//launch website
