@@ -22,7 +22,7 @@ public class OpenBrowser {
 		driver.manage().window().maximize();
 		
 		//we can make wait our application
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		//WebElement element = driver.findElement(By.id("fname"));
 //		WebElement element = driver.findElement(By.name("firstName"));

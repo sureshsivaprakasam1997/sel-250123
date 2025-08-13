@@ -15,7 +15,7 @@ public class Alert {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@onclick='generateConfirmBox()']")).click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		org.openqa.selenium.Alert alert = driver.switchTo().alert();
 		
 		System.out.println(alert.getText());//get the alert text
