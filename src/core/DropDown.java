@@ -17,7 +17,7 @@ public class DropDown {
 		
 		Select dd=new Select(ele);
 		
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 		//dd.selectByIndex(2);//by using index
 		//dd.selectByValue("Performance");//by using value attribute
